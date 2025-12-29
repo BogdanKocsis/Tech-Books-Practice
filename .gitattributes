@@ -1,0 +1,6 @@
+# Make everything non-detectable by default
+* -linguist-detectable
+
+# Allow Java and SQL to be counted
+*.java linguist-detectable
+*.sql linguist-detectable
