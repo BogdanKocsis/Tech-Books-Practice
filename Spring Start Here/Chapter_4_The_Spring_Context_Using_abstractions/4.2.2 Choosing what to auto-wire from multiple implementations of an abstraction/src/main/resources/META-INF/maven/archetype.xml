@@ -1,0 +1,9 @@
+<archetype>
+  <id>4.2.1_Deciding_which_objects_should_be_part_of_the_Spring_context</id>
+  <sources>
+    <source>src/main/java/App.java</source>
+  </sources>
+  <testSources>
+    <source>src/test/java/AppTest.java</source>
+  </testSources>
+</archetype>

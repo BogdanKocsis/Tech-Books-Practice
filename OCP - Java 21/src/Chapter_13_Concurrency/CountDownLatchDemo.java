@@ -1,0 +1,38 @@
+package Chapter_13_Concurrency;
+
+
+import java.util.concurrent.CountDownLatch;
+import java.util.concurrent.Executors;
+import java.util.stream.IntStream;
+
+/**
+ * A synchronization aid that allows one or more threads to wait until a set of operations being performed in
+ * other threads completes. It prevents any thread from proceeding past an await until all threads could pass.
+ */
+public class CountDownLatchDemo {
+    private static final int COUNT = 5;
+
+    private static class Worker implements Runnable {
+        private final CountDownLatch latch;
+
+        public Worker(CountDownLatch latch) {
+            this.latch = latch;
+        }
+
+        public void run() {
+            System.out.println("Counted latch: " + latch.getCount());
+            latch.countDown();
+        }
+    }
+
+    public static void main(String[] args) throws InterruptedException {
+        var countDownLatch = new CountDownLatch(COUNT);
+        var executorService = Executors.newFixedThreadPool(2);
+
+        IntStream.range(0, COUNT).forEach(i -> executorService.submit(new Worker(countDownLatch)));
+
+        countDownLatch.await(); // Wait until latch counts down in this case 5
+        System.out.println("Invocation completed.");
+        executorService.shutdown();
+    }
+}

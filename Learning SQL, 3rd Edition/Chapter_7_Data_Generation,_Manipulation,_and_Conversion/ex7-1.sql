@@ -1,0 +1,1 @@
+SELECT SUBSTRING('Please find the substring in the string', 17, 9);

@@ -1,0 +1,9 @@
+<archetype>
+  <id>Chapter_2_The_Spring_Context_Defining_beans</id>
+  <sources>
+    <source>src/main/java/App.java</source>
+  </sources>
+  <testSources>
+    <source>src/test/java/AppTest.java</source>
+  </testSources>
+</archetype>

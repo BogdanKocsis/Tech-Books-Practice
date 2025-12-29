@@ -1,0 +1,5 @@
+package com.practicesets.managing_exceptions_at_the_endpoint_level_advice_version.exception;
+
+public class NotEnoughMoneyException extends RuntimeException {
+
+}

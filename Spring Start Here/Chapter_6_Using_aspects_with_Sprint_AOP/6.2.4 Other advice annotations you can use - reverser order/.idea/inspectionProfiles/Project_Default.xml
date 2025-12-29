@@ -1,0 +1,44 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="1_Declaring_singleton-scoped_beans_with_Bean" />
+          <option value="5.1.1_Declaring_singleton_beans_using_stereotype_annotations" />
+          <option value="6.2.1_Implementing_a_simple_aspect" />
+          <option value="6.2.2 Altering the intercepted method’s parameters and the returned value" />
+          <option value="6.2.3 Intercepting annotated methods" />
+          <option value="6.2.4 Other advice annotations you can use" />
+          <option value="6.2.4_Other_advice_annotations_you_can_use" />
+          <option value="6.2.4_Other_advice_annotations_you_can_use_reversed_order" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="org.springframework:spring-context:5.2.7.RELEASE" />
+          <option value="org.springframework:spring-context:5.2.7.RELEASE" />
+          <option value="org.springframework:spring-context:5.2.7.RELEASE" />
+          <option value="org.springframework:spring-context:5.2.7.RELEASE" />
+          <option value="org.springframework:spring-context:5.2.7.RELEASE" />
+          <option value="org.springframework:spring-context:5.2.7.RELEASE" />
+          <option value="org.springframework:spring-context:5.2.7.RELEASE" />
+          <option value="org.springframework:spring-context:5.2.7.RELEASE" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

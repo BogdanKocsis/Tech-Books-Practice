@@ -1,0 +1,29 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="4.2.2 Choosing what to auto-wire from multiple implementations of an abstraction" />
+          <option value="4.2.2_Choosing_what_to_auto-wire_from_multiple_implementations_of_an_abstraction" />
+          <option value="4.2.2_Choosing_what_to_auto-wire_from_multiple_implementations_of_an_abstraction_Qualifier" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="org.springframework:spring-context:5.2.7.RELEASE" />
+          <option value="org.springframework:spring-context:5.2.7.RELEASE" />
+          <option value="org.springframework:spring-context:5.2.7.RELEASE" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>

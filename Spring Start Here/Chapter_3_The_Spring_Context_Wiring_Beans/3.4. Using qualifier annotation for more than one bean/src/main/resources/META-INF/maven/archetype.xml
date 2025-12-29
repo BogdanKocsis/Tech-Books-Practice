@@ -1,0 +1,9 @@
+<archetype>
+  <id>3.4._Using_qualifier_annotation_for_more_than_one_bean</id>
+  <sources>
+    <source>src/main/java/App.java</source>
+  </sources>
+  <testSources>
+    <source>src/test/java/AppTest.java</source>
+  </testSources>
+</archetype>

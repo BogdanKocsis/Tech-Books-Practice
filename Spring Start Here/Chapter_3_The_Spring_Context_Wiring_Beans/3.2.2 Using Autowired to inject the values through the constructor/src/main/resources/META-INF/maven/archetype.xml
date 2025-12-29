@@ -1,0 +1,9 @@
+<archetype>
+  <id>3.2.2_Using_Autowired_to_inject_the_values_through_the_constructor</id>
+  <sources>
+    <source>src/main/java/App.java</source>
+  </sources>
+  <testSources>
+    <source>src/test/java/AppTest.java</source>
+  </testSources>
+</archetype>
